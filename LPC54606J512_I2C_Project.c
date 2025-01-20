@@ -40,7 +40,7 @@
 #include "clock_config.h"
 #include "LPC54606.h"
 /* TODO: insert other include files here. */
-#define i2c_polling 0
+#define i2c_polling 1
 #define spi_polling 1
 #if spi_polling
 #define EXAMPLE_SPI_MASTER          SPI9
